@@ -136,6 +136,7 @@ Library: lib_burst_generated
 --compilation-defines=ENABLE_VR_MODULE
 --compilation-defines=ENABLE_XR_MODULE
 --compilation-defines=ENABLE_INPUT_SYSTEM_PACKAGE
+--compilation-defines=DISABLE_BUILTIN_INPUT_SYSTEM_OCULUS
 --compilation-defines=UNITY_INPUT_SYSTEM_ENABLE_VR
 --compilation-defines=UNITY_INPUT_SYSTEM_ENABLE_XR
 --compilation-defines=UNITY_INPUT_SYSTEM_ENABLE_PHYSICS
@@ -165,6 +166,8 @@ Library: lib_burst_generated
 --compilation-defines=INCLUDE_LEGACY_INPUT_HELPERS
 --compilation-defines=UNITY_ANALYTICS
 --compilation-defines=TIMELINE_FRAMEACCURATE
+--compilation-defines=UNITY_INPUT_SYSTEM
+--compilation-defines=XR_MGMT_GTE_320
 --generate-link-xml=Temp\burst.link.xml
 --debug=Full
 --output=F:\Projects\Unity\vr-freeflight\Temp\StagingArea\tempburstlibs\arm64-v8a\lib_burst_generated
@@ -211,6 +214,7 @@ Library: lib_burst_generated
 --root-assembly=F:\Projects\Unity\vr-freeflight\Temp\StagingArea\Data\Managed\Unity.XR.OpenXR.Features.RuntimeDebugger.dll
 --root-assembly=F:\Projects\Unity\vr-freeflight\Temp\StagingArea\Data\Managed\Unity.RenderPipelines.Universal.Shaders.dll
 --root-assembly=F:\Projects\Unity\vr-freeflight\Temp\StagingArea\Data\Managed\Unity.XR.OpenXR.Features.OculusQuestSupport.dll
+--root-assembly=F:\Projects\Unity\vr-freeflight\Temp\StagingArea\Data\Managed\Unity.XR.Oculus.dll
 --assembly-folder=F:\Projects\Unity\vr-freeflight\Temp\StagingArea\Data\Managed\
 --pdb-search-paths=Temp/ManagedSymbols/
 --method=Unity.Jobs.IJobForExtensions+ForJobStruct`1[[UnityEngine.Rendering.Universal.ReorderJob`1[[UnityEngine.Rendering.Universal.LightMinMaxZ, Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(UnityEngine.Rendering.Universal.ReorderJob`1[[UnityEngine.Rendering.Universal.LightMinMaxZ, Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--e943843acfb78f5f2f3716a6553740d9

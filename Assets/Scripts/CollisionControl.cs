@@ -18,8 +18,8 @@ public class CollisionControl : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        Debug.Log(collision.gameObject.name);
-        if (collision.gameObject.tag == "Building")
+        ////Debug.Log(collision.gameObject.name);
+        if (collision.gameObject.tag == "Building" && gameObject.tag == "Player")
         {
             Destroy(collision.gameObject);
         }
