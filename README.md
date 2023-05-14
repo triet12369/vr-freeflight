@@ -1,2 +1,2 @@
 # vr-freeflight
-CS 6334 Joint Project by Brighton Mica and Triet Cao
+A VR Freeflight Sandbox / Superman Simulator.
